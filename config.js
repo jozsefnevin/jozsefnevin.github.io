@@ -1,49 +1,41 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://jozsefnevin.github.io',
   pathPrefix: '/',
   title: 'Joseph Nevin',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: '',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
+  projectsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
-    },
-    {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Work',
+      path: '/pages/work'
+    },
+    {
+      label: 'Projects',
+      path: '/projects/'
+    },
+    {
+      label: 'Contact',
       path: '/pages/contacts'
     }
   ],
   author: {
     name: 'Joseph Nevin',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+      email: 'josephfnevin@gmail.com',
+      github: 'jozsefnevin',
+      linkedin: 'joseph-nevin-2a0b56113/',
+      instagram: 'jozsefnevin'
     }
   }
 };

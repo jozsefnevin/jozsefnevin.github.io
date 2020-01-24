@@ -1,7 +1,7 @@
 {
-  "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "version": "1.0",
+  "name": "josephfnevin",
+  "description": "Personal website for Joseph Nevin.",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://https://github.com/jozsefnevin/jozsefnevin.github.io",
+  "repository": "https://github.com/jozsefnevin/jozsefnevin.github.io",
   "author": "Joe Nevin <josephfnevin@gmail.com>",
   "license": "MIT",
   "keywords": [
